@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Registration done successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successful for: user1]]>
+    </line>
+    <line>
+      <![CDATA[Login successful for: user2]]>
+    </line>
+    <line>
+      <![CDATA[Login successful for: user3]]>
+    </line>
+    <line>
+      <![CDATA[No seats available]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-18T00:01:19 EDT" name="Default suite" finished-at="2024-10-18T00:01:48 EDT" duration-ms="29247">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T00:01:19 EDT" name="Default test" finished-at="2024-10-18T00:01:48 EDT" duration-ms="29247">
+      <class name="TestRunners.TestRunner">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:19 EDT" name="reportSetup" finished-at="2024-10-18T00:01:19 EDT" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:19 EDT" name="beforeMethod" finished-at="2024-10-18T00:01:26 EDT" duration-ms="6515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Registration()[pri:1, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:26 EDT" name="Registration" finished-at="2024-10-18T00:01:27 EDT" duration-ms="1690" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration done successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:27 EDT" name="afterMethod" finished-at="2024-10-18T00:01:28 EDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:28 EDT" name="beforeMethod" finished-at="2024-10-18T00:01:31 EDT" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Login(java.lang.String)[pri:2, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:31 EDT" name="Login" data-provider="loginData" finished-at="2024-10-18T00:01:32 EDT" duration-ms="962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful for: user1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:32 EDT" name="afterMethod" finished-at="2024-10-18T00:01:33 EDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:33 EDT" name="beforeMethod" finished-at="2024-10-18T00:01:35 EDT" duration-ms="2525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Login(java.lang.String)[pri:2, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:35 EDT" name="Login" data-provider="loginData" finished-at="2024-10-18T00:01:36 EDT" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful for: user2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:36 EDT" name="afterMethod" finished-at="2024-10-18T00:01:36 EDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:36 EDT" name="beforeMethod" finished-at="2024-10-18T00:01:40 EDT" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Login(java.lang.String)[pri:2, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:40 EDT" name="Login" data-provider="loginData" finished-at="2024-10-18T00:01:41 EDT" duration-ms="875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful for: user3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:41 EDT" name="afterMethod" finished-at="2024-10-18T00:01:41 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:41 EDT" name="beforeMethod" finished-at="2024-10-18T00:01:47 EDT" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Flights()[pri:3, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:47 EDT" name="Flights" finished-at="2024-10-18T00:01:48 EDT" duration-ms="1534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No seats available]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Flights -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestRunners.TestRunner@14028087]" started-at="2024-10-18T00:01:48 EDT" name="afterMethod" finished-at="2024-10-18T00:01:48 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestRunners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
